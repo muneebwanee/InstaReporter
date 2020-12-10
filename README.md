@@ -1,5 +1,4 @@
-<p align="center">𝕄𝕖𝕥𝕒𝕤𝕡𝕝𝕠𝕚𝕥-𝔽𝕣𝕒𝕞𝕖𝕨𝕠𝕣𝕜 𝔹𝕒𝕤𝕙 𝕊𝕔𝕣𝕚𝕡𝕥</p>
-<p align="left">
+<p align="center">
 <a href="#"><img title="Made in India" src="https://img.shields.io/badge/MADE%20IN-INDIA-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
