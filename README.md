@@ -51,3 +51,7 @@ apt update ; apt install git curl wget php -y ; git clone https://github.com/mun
 [![Instagram](https://img.shields.io/badge/IG-%40muneebwanee-red?style=for-the-badge&logo=instagram)](https://www.instagram.com/muneebwanee)
 [![Messenger](https://img.shields.io/badge/Chat-Messenger-blue?style=for-the-badge&logo=messenger)](https://m.me/me.muneebwanee)
 
+<p align="center">
+<a href="https://github.com/muneebwanee"><img title="THANKS FOR VISITING" src="https://img.shields.io/badge/THANK--FOR--VISITING-red.svg?style=for-the-badge&logo=github"></a>
+<a href="https://www.buymeacoffee.com/muneebwanee" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+</p>
