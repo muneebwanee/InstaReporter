@@ -37,10 +37,6 @@ apt update ; apt install git curl wget php -y ; git clone https://github.com/mun
 #### [+] Based On Proxies !
 #### [+] Easy for Beginners !
  
-## Thanks :
-#### > Muneeb (https://github.com/muneebwanee)
-#### > The DeepNet (https://github.com/thedeepnet)
-
 <p align="center">
 <a href="#"><img title="Version" src="https://img.shields.io/badge/Version-1.0-green.svg?style=flat-square"></a>
 <a href="https://github.com/muneebwanee"><img title="Followers" src="https://img.shields.io/github/followers/muneebwanee?color=blue&style=flat-square"></a>
