@@ -60,7 +60,7 @@ def parse_proxy_file(fpath):
         proxies = random.choices(proxies, 50)
         
     print("")
-    print_success(str(len(proxies)) + " Number of proxies installed!")
+    print_success(str(len(proxies)) + " Number of proxies found!")
 
     return proxies
 
