@@ -15,7 +15,7 @@ async def show(proxies, proxy_list):
         proxy = await proxies.get()
         if proxy is None: break
 
-        print_success("[" + str(len(proxy_list) + 1) + "/50]", "Proxy bulundu:", proxy.as_json()["host"] + ":" + str(proxy.as_json()["port"]))
+        print_success("[" + str(len(proxy_list) + 1) + "/50]", "Proxy found:", proxy.as_json()["host"] + ":" + str(proxy.as_json()["port"]))
         
         proxy_list.append(
             proxy.as_json()["host"] + ":" + str(proxy.as_json()["port"])
