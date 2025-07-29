@@ -49,7 +49,7 @@ def report_profile_attack(username, proxy):
     if (proxy != None):
         ses.proxies = {
             "https": "https://" + proxy,
-            "http": "https://" + proxy
+            "http": "http://" + proxy
         }
     
     user_agent = get_user_agent()
@@ -177,14 +177,14 @@ def report_profile_attack(username, proxy):
         print_error("Connection error has occurred! (STATUS CODE:", res.status_code, ")")
         return
     
-    print_success("Connection error has occurred!")
+    print_success("Successfully reported!")
 
 def report_video_attack(video_url, proxy):
     ses = Session()
     if (proxy != None):
         ses.proxies = {
             "https": "https://" + proxy,
-            "http": "https://" + proxy
+            "http": "http://" + proxy
         }
     
     user_agent = get_user_agent()
