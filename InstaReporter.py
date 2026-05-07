@@ -56,7 +56,7 @@ def video_attack(proxies):
             if (i == 5): print()  
         return  
   
-    chunk = list(chunks(proxies, 10))  
+    chunk = list(chunks(proxies, 20))  
   
     print("")  
     print_status("Video complaint attack is starting!\\n")  
@@ -79,7 +79,7 @@ def profile_attack(proxies):
             print_status(str(k + 1) + ". Transaction Opened!")  
         return  
   
-    chunk = list(chunks(proxies, 10))  
+    chunk = list(chunks(proxies, 20))  
   
     print("")  
     print_status("Profile complaint attack is starting!\\n")  
