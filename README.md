@@ -1,4 +1,4 @@
-# 🎯 InstaReporter  
+# 🎯 InstaReporter _caethz
   
 <div align="center">  
   
@@ -185,7 +185,7 @@ graph TB
 ### 📁 **Project Structure**  
   
 ```  
-InstaReporter/  
+InstaReporter/_caethz  
 ├── InstaReporter.py          # Main application entry point  
 ├── libs/  
 │   ├── attack.py            # Core attack functionality  
