@@ -11,11 +11,11 @@ from libs.utils import ask_question
 from libs.utils import print_status  
   
 async def show(proxies, proxy_list):  
-    while (len(proxy_list) < 50):  
+    while (len(proxy_list) < 100):  
         proxy = await proxies.get()  
         if proxy is None: break  
   
-        print_success("[" + str(len(proxy_list) + 1) + "/50]", "Proxy found:", proxy.as_json()["host"] + ":" + str(proxy.as_json()["port"]))  
+        print_success("[" + str(len(proxy_list) + 1) + "/100]", "Proxy found:", proxy.as_json()["host"] + ":" + str(proxy.as_json()["port"]))  
           
         proxy_list.append(  
             proxy.as_json()["host"] + ":" + str(proxy.as_json()["port"])  
@@ -31,7 +31,7 @@ def find_proxies():
     broker = Broker(proxies)  
     tasks = asyncio.gather(  
         broker.find(  
-            types=['HTTPS'], limit=50), show(proxies, proxy_list)  
+            types=['HTTPS'], limit=100), show(proxies, proxy_list)  
         )  
   
     loop = asyncio.get_event_loop()  
