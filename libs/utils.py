@@ -34,8 +34,12 @@ def ask_question(message, *argv):
     for arg in argv:  
         message = message + " " + arg  
     print(message, end="")  
-    ret = input(": ")  
-    return ret  
+    try:
+        ret = input(": ")
+        return ret
+    except EOFError:
+        print_error("No input available! Exiting.")
+        exit(0)
   
 def parse_proxy_file(fpath):  
     if (path.exists(fpath) == False):  

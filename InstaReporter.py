@@ -93,7 +93,7 @@ def profile_attack(proxies):
         i = i + 1  
   
 def main():  
-    print_success("Modules loaded!\\n")  
+    print_success("Modules loaded!\n")
   
     ret = ask_question("Would you like to use a proxy? [Y/N]")  
   
@@ -103,7 +103,7 @@ def main():
         ret = ask_question("Would you like to collect your proxies from the internet? [Y/N]")  
   
         if (ret == "Y" or ret == "y"):  
-            print_status("Gathering proxy from the Internet! This may take a while.\\n")  
+            print_status("Gathering proxy from the Internet! This may take a while.\n")  
             proxies = find_proxies()  
         elif (ret == "N" or ret == "n"):  
             print_status("Please have a maximum of 50 proxies in a file!")  
@@ -113,7 +113,7 @@ def main():
             print_error("Answer not understood, exiting!")  
             exit()  
   
-        print_success(str(len(proxies)) + " Number of proxies found!\\n")  
+        print_success(str(len(proxies)) + " Number of proxies found!\n")  
     elif (ret == "N" or ret == "n"):  
         pass  
     else:  
