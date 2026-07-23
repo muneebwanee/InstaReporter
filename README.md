@@ -28,7 +28,7 @@
 ## 🌟 Features  
   
 ### 🎯 **Dual Attack Modes**  
-- **Profile Reporting**: Target specific Instagram user profiles  
+- **@hey_c_h_a_h_a_t_**: Target specific Instagram user profiles  
 - **Video Content Reporting**: Report individual video posts  
   
 ### ⚡ **High-Performance Architecture**  
